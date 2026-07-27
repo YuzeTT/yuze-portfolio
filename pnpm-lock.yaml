@@ -9,6 +9,9 @@ catalogs:
     '@iconify-json/carbon':
       specifier: ^1.2.19
       version: 1.2.19
+    '@iconify-json/simple-icons':
+      specifier: ^1.2.92
+      version: 1.2.92
     '@vitejs/plugin-vue':
       specifier: ^6.0.4
       version: 6.0.4
@@ -103,7 +106,7 @@ importers:
         specifier: catalog:build
         version: 1.2.19
       '@iconify-json/simple-icons':
-        specifier: ^1.2.92
+        specifier: catalog:build
         version: 1.2.92
       '@types/node':
         specifier: catalog:dev
