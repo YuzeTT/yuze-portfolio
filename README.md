@@ -37,7 +37,7 @@ pnpm typecheck    # 类型检查
 
 ## 项目结构
 
-```
+```text
 src/
 ├── components/    # 组件
 ├── composables/   # 组合式函数
