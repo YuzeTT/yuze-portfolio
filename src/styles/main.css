@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+@font-face {
+  font-family: 'num';
+  src: url('/fonts/Neutra Display Titling.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
