@@ -1,18 +1,51 @@
-安装总结
+# Yuze's Portfolio
 
-  你的项目 pnpm 配置了 trust-policy=no-downgrade，它会阻止降级信任的包（比如缺少 provenance attestation
-  的新版本）。这导致常规安装失败。
+个人求职简历与项目展示网站，基于 Vue 3 构建。
 
-  解决方法： 临时覆盖配置
+## 技术栈
 
-  pnpm install --save-dev @iconify-json/simple-icons --config trust-policy=downgrade
+- **框架**: Vue 3 + TypeScript
+- **构建工具**: Vite
+- **样式**: UnoCSS
+- **路由**: Vue Router
+- **工具库**: VueUse
+- **测试**: Vitest + Vue Test Utils
+- **代码规范**: ESLint + lint-staged
 
-  如果这个不生效，可以用分步命令：
+## 快速开始
 
-  pnpm config set trust-policy downgrade --location project
-  pnpm install --save-dev @iconify-json/simple-icons
-  pnpm config set trust-policy no-downgrade --location project  # 装完恢复
+```bash
+# 安装依赖
+pnpm install
 
-  记住的要点：
-  - --config trust-policy=downgrade 只对当次命令生效（首选）
-  - 如果要长期装多个包，可以临时改 project 级配置，装完改回来
+# 启动开发服务器
+pnpm dev
+```
+
+开发服务器将在 http://localhost:3333 启动。
+
+## 常用命令
+
+```bash
+pnpm dev          # 启动开发服务器
+pnpm build        # 构建生产版本
+pnpm preview      # 预览构建结果
+pnpm test         # 运行测试
+pnpm lint         # 代码检查
+pnpm typecheck    # 类型检查
+```
+
+## 项目结构
+
+```
+src/
+├── components/    # 组件
+├── composables/   # 组合式函数
+├── pages/         # 页面组件
+├── styles/        # 样式文件
+└── main.ts        # 入口文件
+```
+
+## License
+
+[MIT](./LICENSE)
