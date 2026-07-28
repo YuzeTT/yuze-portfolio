@@ -20,15 +20,18 @@
       <span op60>这里是我的</span> 个人简历 & 作品集
     </h3>
 
-    <div mt-8>
-      <p>
-        Today I spent most of the day researching ways to ...
-        <span class="inline-flex items-baseline">
-          <div i-carbon-user />
-          <span>Kramer</span>
-        </span>
-        keeps telling me there is no way to make it work, that ...
-      </p>
+    <div mt-8 flex-inline gap-2>
+      <span op60>还可以在更多地方找到我</span>
+      <span text-xs text-white pl-1 pr-2 rounded-full bg-gray-800 flex gap-1 items-center>
+        <div i-simple-icons-github h-4 w-4 />
+        <span font-bold>YuzeTT</span>
+      </span>
+      <span op60>，还有更多开发日记</span>
+
+      <span text-xs text-white pl-1 pr-2 rounded-full bg-red-500 flex gap-1 items-center>
+        <div i-simple-icons-xiaohongshu h-6 w-8 />
+        <span font-bold>YuzeTT</span>
+      </span>
     </div>
   </div>
 </template>
