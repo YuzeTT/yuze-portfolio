@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <div>
+    <div ml-8>
       <div gap-6 grid grid-cols-1 sm:grid-cols-2>
         <img src="/images/projects/small_sticker.jpg" alt="大贴纸" class="rounded-xl">
         <div my-auto>
@@ -23,10 +23,45 @@
               <div i-simple-icons-antdesign text-xs mb-0.2 />
               <div>Ant.Design</div>
             </div>
+            <div baseline text-sm text-white px-2 py-0.5 rounded-full bg-blue-500 flex gap-1 items-center>
+              <div i-simple-icons-mdnwebdocs text-xs mb-0.2 />
+              <div>Canvas</div>
+            </div>
           </div>
         </div>
       </div>
-      <div>成果</div>
+      <div my-4>
+        <div text-xs mb-2 op50>
+          项目简介
+        </div>
+        <div text-cyan-500 font-bold mb-2>
+          独立负责产品全生命周期
+        </div>
+        <div text-sm mb-3 op60>
+          主导项目Web应用从需求分析、UI设计、前端开发到部署上线的全流程，基于 React + Ant Design 构建高可用前端架构，实现产品从0到1的快速落地。
+        </div>
+        <div text-cyan-500 font-bold mb-2>
+          核心功能模块研发
+        </div>
+        <div text-sm mb-3 op60>
+          设计并实现可视化标签编辑器，利用 Canvas 技术解决瑞幸/奶茶标签及票据的实时渲染与高清导出难题，确保用户“所见即所得”的编辑体验。
+        </div>
+        <div text-cyan-500 font-bold mb-2>
+          线上监控与体验优化
+        </div>
+        <div text-sm mb-3 op60>
+          集成 Microsoft Clarity 建立用户行为分析系统，通过生成唯一用户ID关联录屏回放，精准复现并定位线上疑难 Bug 的触发路径，显著提升了问题排查效率与用户留存率。
+        </div>
+        <div text-cyan-500 font-bold mb-2>
+          用户增长与数据验证
+        </div>
+        <div text-sm mb-3 op60>
+          通过技术手段优化用户体验，配合小红书内容运营策略，累计获取 5.6万+ 点赞收藏，5000+ 精准粉丝，驱动网站访问用户突破 5000+，有效验证了产品的市场价值。
+        </div>
+        <div>
+          123
+        </div>
+      </div>
       <div flex gap-3>
         <div flex gap-1 items-center>
           <div i-carbon-logo-github />
