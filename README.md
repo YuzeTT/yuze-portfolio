@@ -46,6 +46,23 @@ src/
 └── main.ts        # 入口文件
 ```
 
+## 常见问题
+
+### pnpm 安装依赖报错 `ERR_PNPM_TRUST_DOWNGRADE`
+
+pnpm 10 引入了信任策略机制，安装依赖时可能遇到以下错误：
+
+```
+ERR_PNPM_TRUST_DOWNGRADE  High-risk trust downgrade for "@oxc-resolver/binding-*" (possible package takeover)
+```
+
+这是因为 `oxc-resolver` 包的某些版本没有通过信任验证，属于 pnpm 的供应链安全策略。解决方法：在安装命令中添加 `--trust-policy-exclude` 参数排除该包：
+
+```bash
+pnpm install --trust-policy-exclude "@oxc-resolver/*"
+pnpm add -D <package-name> --trust-policy-exclude "@oxc-resolver/*"
+```
+
 ## License
 
 [MIT](./LICENSE)
