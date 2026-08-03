@@ -3,6 +3,7 @@ const projects = [
   {
     title: '大贴纸',
     description: '个性化文创标签生成平台',
+    image: '/images/projects/cover-1.jpg',
     technologies: [{
       icon: 'i-simple-icons-react',
       name: 'React',
@@ -52,6 +53,7 @@ const projects = [
   {
     title: 'AI 图像识别与角色扮演互动平台',
     description: 'AI 图像识别与角色扮演互动平台',
+    image: '/images/projects/cover-2.jpg',
     technologies: [{
       icon: 'i-simple-icons-vuedotjs',
       name: 'Vue',
@@ -96,6 +98,7 @@ const projects = [
   {
     title: '生瓜蛋子鉴定器',
     description: '基于 Web Audio API 的声纹检测工具',
+    image: '/images/projects/cover-3.jpg',
     technologies: [{
       icon: 'i-simple-icons-vuedotjs',
       name: 'Vue',
@@ -134,10 +137,9 @@ const projects = [
 
 <template>
   <div>
-    <div v-for="(i, k) in projects" :key="k" mb-8 ml-8>
+    <div v-for="(i, k) in projects" :key="k" mb-8 ml-9>
       <div gap-6 grid grid-cols-1 sm:grid-cols-2>
-        <div rounded-xl bg-gray-200 aspect-ratio-video />
-        <!-- <img src="/images/projects/small_sticker.jpg" alt="大贴纸" class="rounded-xl"> -->
+        <img :src="i.image" :alt="i.title" class="rounded-xl w-full aspect-video object-cover">
         <div my-auto>
           <div flex items-center justify-between>
             <div class="text-2xl text-cyan-500 font-['num']">

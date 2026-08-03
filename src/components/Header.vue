@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const NavList = [
+const _NavList = [
   {
     name: '简介',
     enName: 'Introduction',
@@ -11,12 +11,17 @@ const NavList = [
 
   },
   {
-    name: '联系',
-    enName: 'Contact',
+    name: '工作经验',
+    enName: 'Work Experience',
+
+  },
+  {
+    name: '教育背景',
+    enName: 'Education',
   },
 ]
 
-const activeNav = ref(0)
+// const activeNav = ref(0)
 </script>
 
 <template>
@@ -30,8 +35,8 @@ const activeNav = ref(0)
       </div>
     </div>
 
-    <div>
-      <div text-center flex gap-5 grid grid-cols-3>
+    <!-- <div>
+      <div text-center flex gap-5 grid grid-cols-4>
         <div v-for="(item, index) in NavList" :key="index" @click="activeNav = index">
           <div :class="{ 'text-sky-500 ': activeNav === index, 'op80': activeNav !== index }">
             {{ item.name }}
@@ -42,7 +47,7 @@ const activeNav = ref(0)
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div flex flex-1 gap-6 items-center justify-end>
       <div>

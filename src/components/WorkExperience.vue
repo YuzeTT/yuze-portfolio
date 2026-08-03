@@ -76,7 +76,7 @@ const works = [
 </script>
 
 <template>
-  <div ml-8>
+  <div ml-9>
     <div v-for="(work, k) in works" :key="k" mb-8>
       <div flex gap-2 items-baseline>
         <div text-lg font-bold flex-1>

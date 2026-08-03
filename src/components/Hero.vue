@@ -20,10 +20,16 @@
       <span op60>这里是我的</span> 个人简历 & 作品集
     </h3>
 
-    <div mt-8 flex-inline gap-2>
+    <div mt-8 flex-inline flex-wrap gap-2>
+      <div class="text-gray-700/60 dark:text-gray-200/60">
+        <span class="text-cyan-500 font-bold">拥有3年前端开发经验</span> 的复合型开发者，具备扎实的平面设计功底。擅长将设计美学与前端技术深度融合，能独立完成从UI/UX设计到高可用代码实现的全流程，尤其在B端/C端页面的视觉还原与交互体验上具备独特优势。
+        拥有独立开发并上线的完整实战经历，从零落地5+ 款商用Web产品。
+        <span class="text-cyan-500 font-bold">累计服务超 15,000 人</span>，具备完整产品需求、开发、运维、用户增长闭环能力。
+      </div>
+      <!-- <br /> -->
       <span op60>还可以在更多地方找到我</span>
       <a href="https://github.com/YuzeTT" target="_blank">
-        <span text-xs text-white pl-1 pr-2 rounded-full bg-gray-800 flex gap-1 items-center>
+        <span text-xs text-white py-1 pl-1 pr-2 rounded-full bg-gray-800 flex gap-1 items-center>
           <div i-simple-icons-github h-4 w-4 />
           <span font-bold>YuzeTT</span>
         </span>
@@ -37,5 +43,6 @@
         </span>
       </a>
     </div>
+    <Contact mt-4 />
   </div>
 </template>

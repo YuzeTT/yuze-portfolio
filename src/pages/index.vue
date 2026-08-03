@@ -14,5 +14,11 @@ defineOptions({
     <WorkExperience mt-6 />
     <Title :number="3" mt-8 title="教育背景" subtitle="Education" link="描述1" />
     <EducationExperience mt-6 />
+    <Title :number="4" mt-8 title="联系到我" subtitle="Contact" link="描述1" />
+    <Contact ml-9 mt-6 />
+
+    <div text-sm mt-8 pb-6 text-center op50>
+      「工欲善其事，必先利其器」都看到这了，招了我吧~
+    </div>
   </div>
 </template>

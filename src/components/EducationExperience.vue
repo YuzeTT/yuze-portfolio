@@ -10,7 +10,7 @@ const educations = [
 </script>
 
 <template>
-  <div ml-8>
+  <div ml-9>
     <div v-for="(edu, k) in educations" :key="k" mb-8>
       <div flex gap-2 items-baseline>
         <div text-lg font-bold flex-1>
