@@ -3,7 +3,7 @@ const projects = [
   {
     title: '大贴纸',
     description: '个性化文创标签生成平台',
-    image: '/images/projects/cover-1.jpg',
+    image: '/images/projects/cover-1.webp',
     technologies: [{
       icon: 'i-simple-icons-react',
       name: 'React',
@@ -53,7 +53,7 @@ const projects = [
   {
     title: 'AI 图像识别与角色扮演互动平台',
     description: 'AI 图像识别与角色扮演互动平台',
-    image: '/images/projects/cover-2.jpg',
+    image: '/images/projects/cover-2.webp',
     technologies: [{
       icon: 'i-simple-icons-vuedotjs',
       name: 'Vue',
@@ -98,7 +98,7 @@ const projects = [
   {
     title: '生瓜蛋子鉴定器',
     description: '基于 Web Audio API 的声纹检测工具',
-    image: '/images/projects/cover-3.jpg',
+    image: '/images/projects/cover-3.webp',
     technologies: [{
       icon: 'i-simple-icons-vuedotjs',
       name: 'Vue',
