@@ -22,16 +22,20 @@
 
     <div mt-8 flex-inline gap-2>
       <span op60>还可以在更多地方找到我</span>
-      <span text-xs text-white pl-1 pr-2 rounded-full bg-gray-800 flex gap-1 items-center>
-        <div i-simple-icons-github h-4 w-4 />
-        <span font-bold>YuzeTT</span>
-      </span>
+      <a href="https://github.com/YuzeTT" target="_blank">
+        <span text-xs text-white pl-1 pr-2 rounded-full bg-gray-800 flex gap-1 items-center>
+          <div i-simple-icons-github h-4 w-4 />
+          <span font-bold>YuzeTT</span>
+        </span>
+      </a>
       <span op60>，还有更多开发日记</span>
 
-      <span text-xs text-white pl-1 pr-2 rounded-full bg-red-500 flex gap-1 items-center>
-        <div i-simple-icons-xiaohongshu h-6 w-8 />
-        <span font-bold>YuzeTT</span>
-      </span>
+      <a href="https://www.xiaohongshu.com/user/profile/5dbc28ee00000000010047ef" target="_blank">
+        <span text-xs text-white pl-1 pr-2 rounded-full bg-red-500 flex gap-1 items-center>
+          <div i-simple-icons-xiaohongshu h-6 w-8 />
+          <span font-bold>YuzeTT</span>
+        </span>
+      </a>
     </div>
   </div>
 </template>

@@ -11,6 +11,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    EducationExperience: typeof import('./src/components/EducationExperience.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
     ProjectList: typeof import('./src/components/ProjectList.vue')['default']
@@ -20,5 +21,6 @@ declare module 'vue' {
     TheFooter: typeof import('./src/components/TheFooter.vue')['default']
     TheInput: typeof import('./src/components/TheInput.vue')['default']
     Title: typeof import('./src/components/Title.vue')['default']
+    WorkExperience: typeof import('./src/components/WorkExperience.vue')['default']
   }
 }

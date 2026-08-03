@@ -11,5 +11,8 @@ defineOptions({
     <Title :number="1" mt-8 title="项目经验" subtitle="Projects" link="描述1" />
     <ProjectList mt-6 />
     <Title :number="2" mt-8 title="工作经验" subtitle="Experience" link="描述1" />
+    <WorkExperience mt-6 />
+    <Title :number="3" mt-8 title="教育背景" subtitle="Education" link="描述1" />
+    <EducationExperience mt-6 />
   </div>
 </template>
