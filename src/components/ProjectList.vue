@@ -51,7 +51,7 @@ const projects = [
     ],
   },
   {
-    title: 'AI 图像识别与角色扮演互动平台',
+    title: '小性具',
     description: 'AI 图像识别与角色扮演互动平台',
     image: '/images/projects/cover-2.webp',
     technologies: [{

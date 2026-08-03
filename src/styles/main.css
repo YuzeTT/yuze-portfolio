@@ -11,7 +11,8 @@ html.dark {
 }
 @font-face {
   font-family: 'num';
-  src: url('/fonts/Neutra Display Titling.otf') format('truetype');
+  src: url('/fonts/Neutra-Display-Titling-num.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
